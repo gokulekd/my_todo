@@ -4,6 +4,4 @@ class AppRoutes {
   AppRoutes._();
   static const initial = '/';
   static const home = '/home'; // Home page
-  static const login = '/login'; // Login page
-  static const verifyOtp = '/verifyOtp'; // verify page
 }
