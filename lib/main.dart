@@ -17,20 +17,18 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.deepPurple,
-          brightness:
-              Brightness.light, // Ensure this matches the theme's brightness
+          brightness: Brightness.light,
         ),
         useMaterial3: true,
       ),
       darkTheme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.deepPurple,
-          brightness:
-              Brightness.dark, // Ensure this matches the theme's brightness
+          brightness: Brightness.dark,
         ),
         useMaterial3: true,
       ),
-      themeMode: ThemeMode.dark, // Use system theme by default
+      themeMode: ThemeMode.dark,
       initialRoute: AppRoutes.initial,
       routes: AppPages.routes,
     );
