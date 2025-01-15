@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
-import 'routes/app_pages.dart';
+import '../../../routes/app_pages.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

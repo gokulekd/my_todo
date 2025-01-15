@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:my_todo/splash.dart';
+import 'package:my_todo/module/splash/page/splash.dart';
 
-import '../views/home_page/home_page.dart';
+import '../module/home_page/home_page.dart';
 
 part './app_routes.dart';
 
