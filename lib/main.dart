@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_todo/splash.dart';
+
+import 'routes/app_pages.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +31,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       themeMode: ThemeMode.dark, // Use system theme by default
-      home: const SplashPage(),
+      initialRoute: AppRoutes.initial,
+      routes: AppPages.routes,
     );
   }
 }
